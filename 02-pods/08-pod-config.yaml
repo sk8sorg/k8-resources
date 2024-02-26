@@ -25,11 +25,11 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: config-pod-1-meta
+  name: config-pod-1
 spec:
   # list of containers
   containers:
-  - name: config-pod-1-cont
+  - name: config-pod-1
     image: nginx
     #here with this line port will not be opened, just for information
     ports:
